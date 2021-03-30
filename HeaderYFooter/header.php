@@ -147,13 +147,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/UI/general.html" class="nav-link">
+                <a href="../Cargo/registroCargo.php" class="nav-link">
                 <i class="far fa-clipboard text-danger mr-3"></i>
                   <p>Registrar Cargo</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/UI/icons.html" class="nav-link">
+                <a href="../Cargo/listarCargo.php" class="nav-link">
                 <i class="fas fa-list-ol text-danger mr-3"></i>
                   <p>Listar Cargo</p>
                 </a>
@@ -198,13 +198,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/tables/simple.html" class="nav-link">
+                <a href="../Producto/registroProducto.php" class="nav-link">
                 <i class="far fa-clipboard text-success mr-3"></i>
                   <p>Registrar producto</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/tables/data.html" class="nav-link">
+                <a href="../Producto/listarProducto.php" class="nav-link">
                 <i class="fas fa-list-ol text-success mr-3"></i>
                   <p>Listar producto</p>
                 </a>

@@ -39,8 +39,7 @@
                     <input accept="image/*" name="imagen" type="file" class="form-control" id="imagen">
                     </div>
                 </div>
-
-
+                
                 <input class="btn btn-outline-secondary btn-block" type="submit" value="registrar" name="registrar">
             </form>
 
