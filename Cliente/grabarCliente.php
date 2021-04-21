@@ -2,8 +2,9 @@
     include("../conexion/conexion.php");
     $rs=$_POST['razon'];
     $ni=$_POST['nit'];
+    $estado = 'activo';
 
-    $consulta = "insert into cliente (razonsocial,nit_ci) values ('$rs','$ni')";
+    $consulta = "insert into cliente (razonsocial,nit_ci,estado) values ('$rs','$ni','$estado')";
     $res=mysqli_query($con,$consulta);
     if($res){
         echo "<script>

@@ -15,7 +15,7 @@
                         <select class="form-control " name="id_proveedor" id="id_proveedor">
                             <?php
                             include("../conexion/conexion.php");
-                            $consulta = "SELECT * FROM proveedor";
+                            $consulta = "SELECT * FROM proveedor WHERE estado = 'activo'";
                             $res = mysqli_query($con, $consulta);
                             while ($reg = mysqli_fetch_array($res)) {
                             ?>

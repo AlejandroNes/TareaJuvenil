@@ -15,7 +15,7 @@
                         <select class="form-control " name="cargo" id="cargo">
                             <?php
                             include("../conexion/conexion.php");
-                            $consulta = "SELECT * FROM cargo";
+                            $consulta = "SELECT * FROM cargo WHERE estado = 'activo'";
                             $res = mysqli_query($con, $consulta);
                             while ($reg = mysqli_fetch_array($res)) {
                             ?>

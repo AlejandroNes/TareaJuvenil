@@ -10,8 +10,9 @@
     $fecha_nacimiento=$_POST['fecha_nacimiento'];
     $genero=$_POST['genero'];
     $interes=$_POST['interes'];
+    $estado = 'activo';
 
-    $consulta = "INSERT INTO empleado (id_cargo,ci,nombre,paterno,materno,direccion,telefono,fecha_nacimiento,genero,intereses) values ($cargo,'$ci','$nombre','$paterno','$materno','$direccion','$telefono','$fecha_nacimiento','$genero','$interes')";
+    $consulta = "INSERT INTO empleado (id_cargo,ci,nombre,paterno,materno,direccion,telefono,fecha_nacimiento,genero,intereses,estado) values ($cargo,'$ci','$nombre','$paterno','$materno','$direccion','$telefono','$fecha_nacimiento','$genero','$interes','$estado')";
     $res=mysqli_query($con,$consulta);
     if($res){
         echo "<script>

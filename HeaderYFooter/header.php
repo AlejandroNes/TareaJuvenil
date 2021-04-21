@@ -121,13 +121,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="../Empelado/registroEmpleado.php" class="nav-link">
+                <a href="../Empleado/registroEmpleado.php" class="nav-link">
                 <i class="far fa-clipboard text-primary mr-3"></i>
                   <p>Registrar empleado</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="../Empelado/listarEmpleado.php" class="nav-link">
+                <a href="../Empleado/listarEmpleado.php" class="nav-link">
                 <i class="fas fa-list-ol text-primary mr-3"></i>
                   <p>Listar empleado</p>
                 </a>

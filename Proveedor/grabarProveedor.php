@@ -7,8 +7,9 @@ $ma = $_POST['mail'];
 $te = $_POST['telefono'];
 $di = $_POST['direccion'];
 $a = $_FILES['imagen']['name'];
-$consulta = "INSERT INTO proveedor (empresa,contacto,mail,telefono,direccion,logo)
-VALUES('$em','$co','$ma','$te','$di','$a')";
+$estado = 'activo';
+$consulta = "INSERT INTO proveedor (empresa,contacto,mail,telefono,direccion,logo,estado)
+VALUES('$em','$co','$ma','$te','$di','$a','$estado')";
 
 $res = mysqli_query($con, $consulta);
 

@@ -11,10 +11,9 @@
 
 
                 <div class="d-flex justify-content-around">
-                    <div class="form-group">
-                        <label class="text-white" for="id_cargo">ID cargo</label>
-                        <input name="id_cargo" type="text" class="form-control" id="id_cargo">
-                    </div>
+
+                        <input name="id_cargo" type="hidden" class="form-control" id="id_cargo">
+
                     <div class="form-group">
                         <label class="text-white" for="cargo">Cargo</label>
                         <input name="cargo" type="text" class="form-control" id="cargo">
