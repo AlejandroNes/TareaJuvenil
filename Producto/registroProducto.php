@@ -1,9 +1,11 @@
+<?php session_start(); ?>
+
 <?php include '../HeaderYFooter/header.php' ?>
 
 <div class="container">
     <div class="row">
         <div class="col-8 offset-2">
-
+            <?php if($_SESSION['nivel'] == 1): ?>
             <!-- REGISTRO PROVEEDOR -->
             <h1 class="text-center text-white font-weight-light py-2">Registro de Productos</h1>
 
@@ -30,7 +32,7 @@
                         <label class="text-white" for="ci">Nombre Producto</label>
                         <input name="nombreproducto" type="text" class="form-control" id="ci">
                     </div>
-                    </div>
+                </div>
 
                 <div class="d-flex justify-content-around">
                     <div class="form-group">
@@ -61,8 +63,9 @@
 
                 <input class="btn btn-dark btn-block" type="submit" value="Registrar producto" name="registrar">
             </form>
-
-
+            <?php elseif($_SESSION['nivel'] == 2): ?>
+                <h2 class="text-center text-danger p-2 border border-danger">No puedes acceder al registro / no eres administrador</h2>
+            <?php endif; ?>
         </div>
     </div>
 </div>

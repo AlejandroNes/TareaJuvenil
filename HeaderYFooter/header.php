@@ -32,6 +32,9 @@
     body{
       background-color: #34495e;
     }
+    .nest{
+      background-color: #34495e;
+    }
     .nestor{
       background-color: #2c3e50;
       border-bottom: none;
@@ -61,7 +64,8 @@
     <div class="d-flex justify-content-around align-items-center w-100">
       <p class="text-info font-weight-light ">Nombre: <span class="text-white">Nestor Alejandro Mamani Condori</span></p>
       <p class="text-info font-weight-light ">Gestion: <span class="text-white">2021</span></p>
-      <p class="text-info font-weight-light ">Año: <span class="text-white">3 <sup>er</sup> año</span></p>
+      <p class="text-info font-weight-light "> <a href="../index/cerrar.php">Cerrar sesion </a></p>
+      <p class="text-info font-weight-light "> <a href="index.php">Volver inicio </a></p>
     </div>
 
   </nav>
@@ -207,6 +211,30 @@
                 <a href="../Producto/listarProducto.php" class="nav-link">
                 <i class="fas fa-list-ol text-success mr-3"></i>
                   <p>Listar producto</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-table text-success"></i>
+              <p class="text-white">
+                Usuario
+                <i class="fas fa-angle-left right text-success"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../Usuario/registroUsuario.php" class="nav-link">
+                <i class="far fa-clipboard text-success mr-3"></i>
+                  <p>Registrar usuario</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../Usuario/listarUsuario.php" class="nav-link">
+                <i class="fas fa-list-ol text-success mr-3"></i>
+                  <p>Listar usuario</p>
                 </a>
               </li>
             </ul>
